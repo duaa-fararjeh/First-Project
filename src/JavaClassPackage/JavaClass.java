@@ -73,19 +73,6 @@ public class JavaClass {
 	}
 		
 	driver.navigate().back();
-	
-WebElement myListOfITEMS2 =	driver.findElement(By.xpath("//ol[@class='product-items widget-product-grid']"));
-	
-	List<WebElement> allItems2 = myListOfITEMS2.findElements(By.tagName("li"));
-    Random rand2 = new Random(); 
-	
-	int randomindex2 = rand2.nextInt(allItems2.size()); 
-	
-	
-	allItems2.get(randomindex2).click(); 
-	
-	for(int i = 0 ; i < allItems2.size();i++) {
 		
-	}
 	
 }}
